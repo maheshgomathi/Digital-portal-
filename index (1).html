@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+
+<link rel="stylesheet"href="style2.css">
+</head>
+<body>
+<div class="hero">
+<nav>
+<img src="E:\mahesh gomathi bsc\web\menu.png"class="menu-img">
+<img src="E:\mahesh gomathi bsc\web\download.jpg"class="download">
+<ul>
+<li><a href="">Home</a></li>
+<li><a href="file:///E:/mahesh%20gomathi%20bsc/web/types1.html">Types</a></li>
+<li><a href="">About</a></li>
+<li><a href="">Contact</a></li>
+</ul>
+<button type="button"onclick="toggleBtn()"id="btn"id="btn"><span></span></button>
+</nav>
+<div class="lamp-container">
+<img src="E:\mahesh gomathi bsc\web\lamp.png"class="lamp">
+<img src="E:\mahesh gomathi bsc\web\light.png"class="light" id="light">
+</div>
+<div class="text-container">
+<h1> Light House</h1>
+<p>
+ In the darkest of times,a lamp can bring hope and guidance.</p>
+<a href="">check all collection</a>
+<div class="control">
+<p>04</p>
+<div class="line"><span></span></div>
+<p>05</p>
+</div>
+</div>
+</div>
+<script>
+var btn=document.getElementById("btn");
+var light=document.getElementById("light");
+function toggleBtn(){
+btn.classList.toggle("active");
+light.classList.toggle("on");
+}
+</script>
+</body>
+</html>
